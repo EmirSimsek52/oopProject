@@ -10,7 +10,7 @@ public class ArabaKredi extends EvKredisi {
     public int kabul;
 
     public void GirdiArabaKredisi(){
-        System.out.println("Miktari Giriniz");
+        System.out.println("Miktari Giriniz : ");
         Miktar= scanner.nextLong();
         System.out.println("Kaç Ay olcagını Giriniz");
         ay= scanner.nextLong();
